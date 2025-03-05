@@ -1,0 +1,40 @@
+{
+    "name": "dbiz/spin-wheel-tool",
+    "description": "A Laravel Nova tool for managing spin wheel activities.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "spin-wheel",
+        "tool"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.2|^8.3",
+        "dbiz/spin-wheel-tool": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dbiz\\SpinWheelTool\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dbiz\\SpinWheelTool\\ToolServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Dang Nhu Hai",
+            "email": "haidv@dbiz.vn",
+            "homepage": "https://dbiz.vn",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
